@@ -1,0 +1,14 @@
+sudo yum update -y
+
+
+
+
+
+11:49
+sudo yum install git -y
+11:50
+sudo yum install python-pip -y
+11:51
+pip3 list | grep Flask
+11:51
+sudo pip install flask
