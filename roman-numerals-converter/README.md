@@ -77,7 +77,7 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
    
    - The application should run on Amazon Linux 2 EC2 Instance
 
-   - EC2 Instance type can be configured as `t2.micro`.
+   - EC2 Instance type can be configured as `t3.micro`.
 
    - Instance launched by Cloudformation should be tagged `Web Server of StackName` 
 
@@ -142,7 +142,7 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 
 ## Steps to Solution
   
-- Step 1: Download or clone project definition from `clarusway-aws-workshop` repo on Github 
+- Step 1: Download or clone project definition from `https://github.com/kadirizm35/aws_projects.git` repo on Github 
 
 - Step 2: Create project folder for local public repo on your pc
 
