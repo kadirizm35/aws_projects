@@ -6,7 +6,7 @@ from flaskext.mysql import MySQL
 app = Flask(__name__)
 
 # Configure mysql database
-app.config['MYSQL_DATABASE_HOST'] = 'kdr-mysql-prj.cozee0g02uix.us-east-1.rds.amazonaws.com'
+app.config['MYSQL_DATABASE_HOST'] = 'host'
 app.config['MYSQL_DATABASE_USER'] = 'admin'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'Ondia_13'
 app.config['MYSQL_DATABASE_DB'] = 'ondia'

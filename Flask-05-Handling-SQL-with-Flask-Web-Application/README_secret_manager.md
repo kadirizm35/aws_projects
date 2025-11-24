@@ -87,6 +87,9 @@ sudo dnf install python3 -y
 sudo dnf install python-pip
 sudo pip3 install Flask==2.3.3
 pip3 install flask-mysql
+sudo pip3 install Flask-MySQL
+pip3 install Flask-SQLAlchemy
+sudo pip3 install flask_sqlalchemy
 pip3 install boto3
 sudo dnf install git -y
 ```
