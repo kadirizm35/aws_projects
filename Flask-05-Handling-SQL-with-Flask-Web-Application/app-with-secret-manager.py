@@ -142,3 +142,16 @@ def add_email():
 if __name__ == '__main__':
     #app.run(debug=True)
     app.run(host='0.0.0.0', port=8080)
+    # app.run(host='0.0.0.0', port=80)  Terminalde CLI icin asagidaki komutlarla acces key credentials (.aws) islemleri yapilmali
+    
+    # sudo ls -l /root/.aws
+    # sudo mkdir -p /root/.aws
+    # sudo cp /home/ec2-user/.aws/* /root/.aws/
+    # ls -l
+    # sudo ls -l 
+
+
+    # sudo dnf install mariadb105 -y
+    # mysql --version
+    # mysql -h ec2-3-94-163-77.compute-1.amazonaws.com -u clarususer -p # endpoint and clarususer must have been changed!!
+    # SHOW DATABASES; # mysql komutlari

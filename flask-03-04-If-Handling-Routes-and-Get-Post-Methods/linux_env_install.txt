@@ -1,0 +1,9 @@
+sudo dnf update -y
+11:40
+sudo dnf install python3-pip
+11:41
+sudo pip3 install flask
+11:43
+sudo dnf install git
+11:47
+sudo git clone https://github.com/okti3535/awsprojects13tr.git
